@@ -1,0 +1,13 @@
+/* мобильные устроиства */
+
+@media(max-width:767px) {
+
+
+    .menu {
+        display: none;
+    }
+
+    .picture_block {
+        display: none;
+    }
+}

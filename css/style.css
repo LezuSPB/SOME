@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header_top {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_top h1 {
+    color: #0088A2;
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu li {
+    list-style: none;
+    text-align: center;
+    flex: 0 1 20%;
+}
+
+.menu_item {
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.6s;
+}
+
+.menu_item:hover {
+    background-color: #0088A2;
+}
+
+.question_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+
+.question {
+    flex: 0 1 30%;
+    position: relative;
+}
+
+.question img {
+    width: 100%;
+}
+
+.question p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    color: white;
+
+}
+
+/* /* .appendix_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans';
+} */
+
+.append-img-box {
+    position: relative;
+    margin: 50px;
+}
+
+.appendix img {
+    max-width: 100%;
+    top: 100%;
+    justify-items: center;
+    /* padding: 125px 50px; */
+    border-radius: 20px;
+    padding-top: 3%;
+
+}
+
+.appendix_block {
+    position: relative;
+    text-align: center;
+    font-style: 'Open Sans';
+    font-size: 96px;
+    color: #0088A2;
+    padding-top: 3%;
+}
+
+.play img {
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.picture {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    height: 100vh;
+
+}
+
+.picture img {
+    position: absolute;
+    top: 0;
+}
+
+.picture img:nth-child(1) {
+    left: 0%;
+}
+
+.picture img:nth-child(2) {
+    left: 18%;
+}
+
+.picture img:nth-child(3) {
+    left: 36%;
+}
+
+.picture img:nth-child(4) {
+    left: 54%;
+
+}
+
+.picture img:nth-child(5) {
+    left: 72%;
+}
+
+.picture img:nth-child(even) {
+    top: 35px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 96px;
+    color: #0088A2;
+    font-family: 'Open Sans';
+    padding: 10%;
+}
+
+.project_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto';
+    margin: 0 100px;
+}
+
+.title p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 96px;
+    font-family: "Open Sans";
+    color: #0088A2;
+    padding: 10%;
+}
+
+.download {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_d p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto';
+    padding: 10%;
+}
+
+
+.last p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 96px;
+    font-family: "Josefin Sans";
+    margin: 50px 50px;
+    color: #fff;
+
+}
+
+.img_v {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.info_block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.info {
+    /* text-align: center;  */
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+.footer_card {
+    flex: 0 1 30%;
+}
+
+.info p {}
+
+.adress {
+    /* width: 60%; */
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+.adress p {
+    /* width: 80%; */
+    margin-top: 40px;
+}
+
+.help {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.footer {
+    background-color: #0088A2;
+    padding-top: 3%;
+}
